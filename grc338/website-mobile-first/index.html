@@ -1,53 +1,36 @@
-/*CSS DOCUMENT*/
-    div.container{
-        max-width: 60 em;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 2fr 1 fr;
-        grid-template-rows: auto auto 3em;
-    }
-    img {
-    width: 100%; 
-}
-    body{
-    background-color: rgb(0, 0, 0);
-    }
-    h1{
-        width: 40%;
-}
-nav ul{
-    padding: 0;
-}
-nav ul li{
-    display: inline;
-    list-style-type: none;
-    margin-right:1em;
-    font-size: 1.5em;
-    color: rgb(255, 253, 253);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-nav ul li a{
-    color:rgb(255, 253, 253);
-    text-decoration: none;
-}
-nav ul li a:hover{
-    color: rgb(221, 186, 28)
-}
-    h2{
-        color: rgb(255, 255, 255);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.5em;
-    }
-    h3{
-        color: rgb(255, 255, 255);
-        font-family: fantasy;
-        font-size: 1em;
-    }
-    p{
-        color: rgb(255, 253, 253);
-        font-family: fantasy;
-        font-size: 0.75em;
-    }
-/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+  <!doctype html>  
+    <html>  
+        <head>  
+            <meta charset="UTF-8">  
+            <meta name="viewport" content="width=device-width, initial-scale=1">  
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
+            <meta http-equiv="Pragma" content="no-cache" />  
+            <meta http-equiv="Expires" content="0" />  
+            <title>The Lost Bean Website</title>  
+        </head>   
+        <body>
+          <div class="container">
+          <header>
+            <h1><a href="index.html"><img src="logo.png" alt="The Lost Bean Logo."></a></h1>
+              <nav>
+                  <ul>
+                      <li><a href="menu.html">Menu</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+          </header>
+            <article>
+              <figure>
+                <img src ="homepage.JPG" alt="The Lost Bean Coffee.">
+              </figure>
+              <h2>Welcome to the Lost Bean</h2>
+              <p>Roasting and brewing our own organic coffee since 2005.</p>
+            </article>
+            <aside>
+              <p>Monday–Saturday: 6:00 AM–6:00 PM</p>
+              <P> Sunday: 7:00 AM–6:00 PM</P>
+            </aside>
+        </body>  
+    </html>
